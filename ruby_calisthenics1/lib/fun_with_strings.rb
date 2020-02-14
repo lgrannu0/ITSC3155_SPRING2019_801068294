@@ -1,9 +1,12 @@
 module FunWithStrings
   def palindrome?
     # your code here
-  end
+    word = self.downcase.scan(/\w/)
+    word == word.reverse
+  end 
   def count_words
     # your code here
+    
   end
   def anagram_groups
     # your code here
