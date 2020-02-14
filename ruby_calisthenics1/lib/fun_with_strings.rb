@@ -6,7 +6,10 @@ module FunWithStrings
   end 
   def count_words
     # your code here
-    
+    word = self.downcase.scan(/\b\w+\b/)
+    x = Hash.new(0)
+    word.each{|w| x[w] += 1}
+    return x
   end
   def anagram_groups
     # your code here
