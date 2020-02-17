@@ -12,7 +12,7 @@ class Dessert
   end
   def delicious?
     # your code here
-    if @flavor == "black licorice"
+    if @flavor == "licorice"
       false
     else
       true
