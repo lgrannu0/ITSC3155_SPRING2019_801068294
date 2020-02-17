@@ -8,4 +8,8 @@ def initialize isbn, price
     @isbn = isbn
     @price = price
 end
+
+def price_as_string
+    return "$%0.2f" % price
+end
 end
